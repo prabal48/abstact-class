@@ -1,0 +1,8 @@
+abstract class test{
+abstract void display();}
+class test1 extends test{
+void display(){
+System.out.println("test");}
+public static void main(String[] args){
+   test1 obj=new test1();
+   obj.display();}}
